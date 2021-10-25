@@ -40,7 +40,6 @@ class LoginActivity : AppCompatActivity() {
             val takeDataPass = dataPassword.get(i)
             if (takeDataEmail == email || takeDataPass == password){
                 // Toast.makeText(this, "LogedIn", Toast.LENGTH_SHORT).show()
-                Snackbar.make
                 progressBar?.visibility = View.GONE
                 startActivity(Intent(this, HomeActivity::class.java))
                 break
